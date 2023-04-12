@@ -1,4 +1,4 @@
--- Telescope vim.keymaps
+-- Telescope keymaps
 local telescope = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', telescope.find_files, {})
 vim.keymap.set('n', '<leader>fg', telescope.live_grep, {})
@@ -6,7 +6,7 @@ vim.keymap.set('n', '<leader>fb', telescope.buffers, {})
 vim.keymap.set('n', '<leader>fm', telescope.man_pages, {})
 
 
--- nvim-tree vim.keymaps
+-- nvim-tree keymaps
 vim.keymap.set('n', '<leader>e', '<cmd>NvimTreeToggle<cr>', {})
 
 local M = {}

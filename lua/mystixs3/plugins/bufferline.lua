@@ -1,5 +1,5 @@
 return {
-	"Vakinsho/bufferline.nvim",
+	"akinsho/bufferline.nvim",
 	event = 'ColorScheme',
 	config = function()
 		local highlights = require('rose-pine.plugins.bufferline')

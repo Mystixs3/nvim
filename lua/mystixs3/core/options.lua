@@ -27,3 +27,6 @@ opt.backspace = "indent,eol,start"
 -- split windows
 opt.splitright = true
 opt.splitbelow = true
+
+-- mouse movement events
+opt.mousemoveevent = true

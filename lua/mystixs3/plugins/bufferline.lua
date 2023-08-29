@@ -2,7 +2,7 @@ return {
 	"akinsho/bufferline.nvim",
 	event = 'ColorScheme',
 	config = function()
-		local highlights = require('rose-pine.plugins.bufferline')
+		local highlights = require('catppuccin.groups.integrations.bufferline')
 		require('bufferline').setup{
 			options = {
 				highlights = highlights,

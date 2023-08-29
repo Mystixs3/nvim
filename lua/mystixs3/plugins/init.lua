@@ -4,7 +4,7 @@ return {
 		build = ":MasonUpdate", -- :MasonUpdate updates registry contents
 		config = function() require("mason").setup() end,
 	},
-	{ "rose-pine/neovim", name = "rose-pine" },
+	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	{
 		"nvim-tree/nvim-tree.lua",
 		dependencies = { "nvim-tree/nvim-web-devicons" },
